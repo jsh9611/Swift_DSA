@@ -26,6 +26,7 @@
 		1109AB4D2830D56B007A0269 /* Swift_DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		1109AB502830D56B007A0269 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1109AB5B2830E6F0007A0269 /* TreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTraversal.swift; sourceTree = "<group>"; };
+		1109AB5E28326EAD007A0269 /* timeAndSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeAndSpace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 		1109AB572830D573007A0269 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				1109AB5D28326E7A007A0269 /* Complexity */,
 				1109AB592830D5A5007A0269 /* Graph */,
 			);
 			path = DataStructure;
@@ -86,6 +88,14 @@
 				1109AB5B2830E6F0007A0269 /* TreeTraversal.swift */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		1109AB5D28326E7A007A0269 /* Complexity */ = {
+			isa = PBXGroup;
+			children = (
+				1109AB5E28326EAD007A0269 /* timeAndSpace.swift */,
+			);
+			path = Complexity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
